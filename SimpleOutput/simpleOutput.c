@@ -1,3 +1,5 @@
+// A program that prompts the user for their name, their username, and their age, and then outputs it back.
+
 #include <stdio.h>
 
 int main() 
@@ -7,8 +9,7 @@ int main()
 	int age;
 
 	printf("Enter your name: ");
-	// array variables do not need & in scanf, because scanf provides a memory address of the variable being used, therefore, having an & for an array would be redundant.
-    scanf("%s", name);
+    	scanf("%s", name);
 
 	printf("Enter your username: ");
 	scanf("%s", username);
